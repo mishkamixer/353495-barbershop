@@ -34,9 +34,7 @@
         <a href="#" class="login">Вход</a>
       </div>
     </header>
-
     <main class="container">
-
         <h1>Средства для ухода</h1>
         <div class="breadcrumbs">
           <ul>
@@ -45,11 +43,12 @@
             <li><Средства для ухода</li>
           </ul>
         </div>
-
       <aside class="shop-leftcolumn">
-        <h2 class="shop-leftcolumn-title">Производители</h2>
+      <form>
         <fieldset>
-          <form>
+          <!-- Не совсем разобрался когда стоит и для чего использовать сочетание form с fieldset если не сложно напиши в правках-->
+          <h2 class="shop-leftcolumn-title">Производители</h2>
+          <div class="manu">
             <label for="man-baxterofcalifornia" class="shop-leftcolumn-checkbox">
               <input type="checkbox" name="manufactures" id="man-baxterofcalifornia" checked>
                 baxter of california
@@ -74,7 +73,7 @@
               <input type="checkbox" name="manufactures" id="manu-americancrew" checked>
                 American crew
             </label>
-          </form>
+          </div>
           <div class="groups">
             <h2>Группы товаров</h2>
             <label for="groups-1">
@@ -92,6 +91,7 @@
             <a class="btn" href="#">Показать</a>
           </div>
         </fieldset>
+      </form>
       </aside>
       <div class="shop-rightcolumn">
         <div class="article">
